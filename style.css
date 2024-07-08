@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero-sec{
+    height: 730px;
+    background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(assets/hero-bg.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-sec .hero-contain{
+    width: 685px;
+}
+.hero-sec .hero-contain .upper-line{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin: 10px 0px;
+}
+.hero-sec .hero-contain h2{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 10px 0px;
+}
+.hero-sec .hero-contain .p-tag{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 10px 0px;
+}
+.hero-sec .hero-contain button{
+    width: 200px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 12px 20px 12px 20px;
+    display: block;
+    margin: auto;
+    border: none;
+}
+/* card-section */
+
+.card-section{
+    width: 100%;
+    height: 870px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #bac1d9;
+}
+.card-div{
+    width: 885px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.title-div{
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.title-div p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.title-div h2{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.card-img img{
+    width: 100%;
+    background-size: cover;
+}
+.card .card-ft .first-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card .card-ft{
+    width: 125px;
+    padding: 8px 18px 8px 18px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+.card h2{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card .sceond-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-div button{
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 12px 18px 12px 18px;
+    border: none;
+}
+/* third section */
+
+.footer-section{
+    background-image: linear-gradient( rgba(240, 238, 230,0.9), rgba(250, 240, 245,0.9)), url(assets/social-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-div{
+    width: 885px;
+    height: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-title{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-title h2{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0%;
+}
+.contact-title p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    margin: 18px 0px;
+}
+.hrline{
+    width: 885px;
+}
+.hrline P{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 16px 10px 16px 10px;
+}
+.footerimg-div{
+   margin-top: 10px;
+   /* display: flex;
+   align-items: center;
+   justify-content: space-evenly; */
+}
+.footerimg-div .fa-facebook{
+    color: rgb(0, 146, 255);
+    font-size: 22px;
+    margin-right: 10px;
+}
+.footerimg-div .fa-x-twitter{
+    color: rgb(0, 0 , 0);
+    font-size: 22px;
+    margin-right: 10px;
+}
+.footerimg-div .fa-instagram{
+    font-size: 22px;
+    margin-right: 10px;
+    color: rgb(226, 74, 98);
+}
+.footerimg-div .fa-pinterest{
+    font-size: 22px;
+    margin-right: 10px;
+    color: rgb(225, 49, 56);
+}
